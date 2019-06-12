@@ -1,5 +1,5 @@
 ---
-final_name: vault-images-boshrelease
+final_name: vault-images
 blobstore:
   provider: s3
   options:
