@@ -1,0 +1,16 @@
+---
+name: vault-docker-images
+description: |
+  This job installs the vault 1.0.2 docker images, to a place where
+  the docker BOSH release can find and load them, for air-gapped
+  deployments of Vault via docker.
+
+  These are official, upstream images.
+
+packages:
+  - vault-docker-images
+
+template:
+  - docker-bosh-release-import/vault.lst: docker-bosh-release-import/vault.lst
+
+properties: {}
