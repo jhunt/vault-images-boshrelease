@@ -10,7 +10,9 @@ description: |
 packages:
   - vault-docker-images
 
-template:
-  - docker-bosh-release-import/vault.lst: docker-bosh-release-import/vault.lst
+templates:
+  docker-bosh-release-import/vault.lst: docker-bosh-release-import/vault.lst
 
 properties: {}
+
+# vim:ft=yaml
